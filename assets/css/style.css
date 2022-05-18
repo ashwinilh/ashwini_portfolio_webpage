@@ -38,3 +38,23 @@ header h1{
      color: white;
      text-decoration: none;
  }
+ footer{
+    padding: 40px 35px;
+    line-height: 1.5;
+  text-align: right;
+ }
+ footer p a {
+     color: whitesmoke;
+     text-decoration: none;
+ }
+ .contact-info{
+     display: flex;
+     justify-content:center;
+     flex-wrap: wrap;
+     align-items:flex-start;
+ }
+ .contact-info a img {
+     height: 32px;
+     width: 32px;
+     margin: 5px 10px;
+ }
