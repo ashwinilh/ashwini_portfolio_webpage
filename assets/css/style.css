@@ -5,56 +5,111 @@
 }
 
 body {
-    background-image:url("../images/background-image.jpg");
+    background-image: url("../images/background-image.jpg");
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+
 header {
     display: flex;
     padding: 20px 35px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-header h1{
+
+header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
     color: white;
 }
- header nav {
+
+header nav {
     margin: 7px opx;
- }
- header nav ul {
+}
+
+header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
- }
- header nav ul li a {
-     margin: 0 30px;
-     font-weight: lighter;
-     font-size: 1.55vw;
-     color: white;
-     text-decoration: none;
- }
- footer{
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
     padding: 40px 35px;
     line-height: 1.5;
-  text-align: right;
- }
- footer p a {
-     color: whitesmoke;
-     text-decoration: none;
- }
- .contact-info{
-     display: flex;
-     justify-content:center;
-     flex-wrap: wrap;
-     align-items:flex-start;
- }
- .contact-info a img {
-     height: 32px;
-     width: 32px;
-     margin: 5px 10px;
- }
+    text-align: right;
+}
+
+footer p a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.contact-info {
+    width: 250px;
+    margin-top: 20px;
+}
+
+.contact-info img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+#contact {
+    margin-top: 20px;
+}
+
+.work-samples {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    max-width: 600px;
+    margin-left: 250px;
+}
+
+.project h2 {
+    text-align: center;
+}
+
+.project p {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.project {
+    min-width: 350px;
+    min-height: 350px;
+    background-color: rgb(126, 165, 223);
+    margin: 20px;
+}
+
+.step {
+    display: flex;
+}
+
+.img {
+    flex: 1 20%;
+}
+
+.about-me {
+    flex: 2 80%;
+    padding-left: 20px;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+}
+
+.second {
+    margin-top: 10px;
+}
