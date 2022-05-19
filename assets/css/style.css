@@ -65,7 +65,7 @@ footer p a {
     margin-right: 10px;
 }
 
-#contact {
+#contact-container {
     margin-top: 20px;
 }
 
@@ -101,8 +101,12 @@ footer p a {
     display: flex;
 }
 
-.porfile-img {
+.profile-img-container {
     flex: 1 25%;
+}
+
+.profile-img {
+    height: 220px;
 }
 
 .about-me {
@@ -114,10 +118,17 @@ footer p a {
     text-align: left;
 }
 
-.second {
+.about-me-line {
     margin-top: 10px;
 }
-.portfolios-header{
+.portfolio-header{
     flex: 1 25%;
     
 }
+.profile-img div{
+    height: 250px;
+    border: 10px;
+    padding: 20px;
+}
+
+  
