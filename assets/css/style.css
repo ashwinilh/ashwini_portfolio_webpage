@@ -70,11 +70,9 @@ footer p a {
 }
 
 .work-samples {
-    display: flex;
+    flex: 2 75%;
     flex-wrap: wrap;
-    border-radius: 20px;
-    max-width: 600px;
-    margin-left: 250px;
+    padding-left: 20px;
 }
 
 .project h2 {
@@ -87,22 +85,28 @@ footer p a {
 }
 
 .project {
-    min-width: 350px;
-    min-height: 350px;
     background-color: rgb(126, 165, 223);
     margin: 20px;
 }
+.main-project{
+    min-height: 200px;
+    min-width: 700px;
+}
 
+.sub-project{
+    min-height: 200px;
+    min-width: 350px;;
+}
 .step {
     display: flex;
 }
 
-.img {
-    flex: 1 20%;
+.porfile-img {
+    flex: 1 25%;
 }
 
 .about-me {
-    flex: 2 80%;
+    flex: 2 75%;
     padding-left: 20px;
     align-items: center;
     margin-top: auto;
@@ -112,4 +116,8 @@ footer p a {
 
 .second {
     margin-top: 10px;
+}
+.portfolios-header{
+    flex: 1 25%;
+    
 }
