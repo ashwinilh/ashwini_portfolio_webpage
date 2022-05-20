@@ -65,7 +65,7 @@ footer p a {
     margin-right: 10px;
 }
 
-#contact-container {
+#contact {
     margin-top: 20px;
 }
 
@@ -87,6 +87,11 @@ footer p a {
 .project {
     background-color: rgb(126, 165, 223);
     margin: 20px;
+}
+.project:hover{
+    background-color: rgb(43, 72, 116);
+    color: black;
+    
 }
 .main-project{
     min-height: 200px;
